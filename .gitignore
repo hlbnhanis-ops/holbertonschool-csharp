@@ -3,3 +3,6 @@
 **/bin
 *sln
 **/bin/
+**/init*.sh
+**/build*.sh
+**/run*.sh
