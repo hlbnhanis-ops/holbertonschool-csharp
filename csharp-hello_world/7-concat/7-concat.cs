@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-﻿using System;
+﻿﻿using System;
 
 class Program
 {
@@ -7,7 +6,6 @@ class Program
 	{
 		string str1 = "Holberton";
 		string str2 = "School";
-		// YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE.
 		Console.WriteLine("Welcome to {0} {1}!", str1, str2);
 	}
 }
