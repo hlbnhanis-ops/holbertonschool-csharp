@@ -1,22 +1,26 @@
-class Fizzbuzz
+using System;
+
+namespace _12_fizzbuzz
 {
-    public static void Fn_Fizzbuzz()
+    class Program
     {
-        System.Console.Write(1 + " ");
-        for (int i = 2; i <= 100; i++)
+        static void Main(string[] args)
         {
-            if (i % 3 == 0)
+            for (int i = 1; i <= 100; i++)
             {
-                if (i % 5 == 0)
-                    System.Console.Write(" Fizzbuzz");
+                if (i % 3 == 0 && i % 5 == 0)
+                    Console.Write("FizzBuzz");
+                else if (i % 3 == 0)
+                    Console.Write("Fizz");
+                else if (i % 5 == 0)
+                    Console.Write("Buzz");
                 else
-                    System.Console.Write(" Fizz");
+                    Console.Write(i);
+                if (i <= 99)
+                    Console.Write(" ");
+                else
+                    Console.WriteLine();
             }
-            else if (i % 5 == 0)
-                System.Console.Write(" Buzz");
-            else
-                System.Console.Write(" " + i);
         }
-        System.Console.WriteLine();
     }
 }

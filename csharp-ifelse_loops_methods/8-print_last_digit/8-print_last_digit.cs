@@ -1,7 +1,12 @@
-public class Number
+using System;
+class Number
 {
     public static int PrintLastDigit(int number)
     {
-        return number % 10;
+        int ud = number % 10;
+        if (ud < 0)
+            ud *= -1;
+        Console.Write(ud);
+        return ud;
     }
 }

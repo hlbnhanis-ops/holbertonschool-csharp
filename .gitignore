@@ -6,3 +6,4 @@
 **/init*.sh
 **/build*.sh
 **/run*.sh
+*.sh

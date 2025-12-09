@@ -1,10 +1,14 @@
-public class Line
+using System;
+
+class Line
 {
     public static void PrintLine(int length)
     {
         if (length > 0)
-            System.Console.WriteLine(new string('_', length));
-        System.Console.WriteLine();
-        return;
+        {
+            for (int i = 0; i < length; i++)
+                Console.Write("_");
+        }
+        Console.WriteLine("");
     }
 }

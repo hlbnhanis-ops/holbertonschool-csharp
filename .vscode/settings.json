@@ -1,0 +1,29 @@
+{
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": false,
+      "strings": false
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggestSelection": "recentlyUsed"
+  },
+  "editor.suggest.showStatusBar": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.quickSuggestionsDelay": 0,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.intelliSenseEngine": "Roslyn",
+  "omnisharp.autostart": true,
+  "omnisharp.disableMsBuildDiagnosticComplete": true
+}
