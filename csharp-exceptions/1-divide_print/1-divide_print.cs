@@ -3,7 +3,7 @@
 class Int{
 
     public static void divide(int a, int b){
-        int result;
+        int result = 0;
         try{
             result = a / b; 
         }
