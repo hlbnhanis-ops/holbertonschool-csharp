@@ -1,7 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _0_safe_list_print
-{
     class List
     {
         public static int SafePrint(List<int> myList, int n)
@@ -22,5 +21,4 @@ namespace _0_safe_list_print
 
             return count;
         }
-}
 }
