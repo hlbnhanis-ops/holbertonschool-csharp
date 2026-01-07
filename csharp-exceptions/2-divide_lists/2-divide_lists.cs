@@ -7,21 +7,22 @@ class List
     {
         List<int> output = new List<int>();
 
-        try
+        for (int i = 0; i < listLength; i++)
         {
-            for (int i = 0; i < listLength; i++)
+            try
             {
                 output.Add(list1[i] / list2[i]);
             }
-        }
-        catch (DivideByZeroException)
-        {
-            Console.WriteLine("Cannot divide by zero");
-            output.Add(0);
-        }
-        catch (ArgumentOutOfRangeException)
-        {
-            Console.WriteLine("Out of range");
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+                output.Add(0);
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("Out of range");
+                break;
+            }
         }
 
         return output;
