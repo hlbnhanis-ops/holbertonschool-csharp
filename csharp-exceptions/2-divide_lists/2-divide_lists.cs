@@ -23,6 +23,10 @@ class List
                 Console.WriteLine("Out of range");
                 break;
             }
+            catch
+            {
+                break;
+            }
         }
 
         return output;
