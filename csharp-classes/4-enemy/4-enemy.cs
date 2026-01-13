@@ -9,7 +9,7 @@ namespace Enemies
     {
         private int health;
 
-        private string name;
+        private string name = "(No name)";
 
         /// <summary>
         /// Nom du Zombie (par défaut, "No Name")
