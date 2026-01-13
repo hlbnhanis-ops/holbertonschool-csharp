@@ -13,7 +13,7 @@ namespace Enemies
 
         public Zombie(int anHealth)
         {
-            if (health < 0)
+            if (anHealth < 0)
                 throw new ArgumentException("Health must be greater than or equal to 0");
             health = anHealth;
         }
