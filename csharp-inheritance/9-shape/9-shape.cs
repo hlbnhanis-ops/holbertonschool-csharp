@@ -126,6 +126,6 @@ class Square : Rectangle
     /// <returns></returns>
     public override string ToString()
     {
-        return String.Format("[Square] {0} / {1}", width, height);
+        return String.Format("[Square] {0} / {1}", Width, Height);
     }
 }
