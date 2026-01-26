@@ -80,4 +80,13 @@ class Rectangle : Shape
         return height * width;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    public override string ToString()
+    {
+        Console.WriteLine(String.Format("[Rectangle] {0} / {1}", width, height));
+    }
+
 }
