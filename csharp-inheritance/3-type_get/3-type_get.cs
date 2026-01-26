@@ -11,12 +11,12 @@ class Obj
         Console.WriteLine(String.Format("{0} Properties:", myObj.GetType().Name));
         foreach (var i in myObj.GetType().GetProperties())
         {
-            Console.WriteLine(i.ToString());
+            Console.WriteLine(i.Name);
         }
         Console.WriteLine(String.Format("{0} Methods:", myObj.GetType().Name));
         foreach (var i in myObj.GetType().GetMethods())
         {
-            Console.WriteLine(i.ToString());
+            Console.WriteLine(i.Name);
         }
     }
 }
