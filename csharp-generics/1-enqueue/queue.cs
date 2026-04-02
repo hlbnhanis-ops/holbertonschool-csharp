@@ -1,9 +1,20 @@
 ﻿
 public class Node<T>
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public T value;
+    
+    /// <summary>
+    /// 
+    /// </summary>
     public Node<T> next;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="value"></param>
     public Node(T value)
     {
         this.value = value;
