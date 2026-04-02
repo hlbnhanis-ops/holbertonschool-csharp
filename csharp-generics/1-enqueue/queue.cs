@@ -1,4 +1,8 @@
 ﻿
+/// <summary>
+/// 
+/// </summary>
+/// <typeparam name="T"></typeparam>
 public class Node<T>
 {
     /// <summary>
