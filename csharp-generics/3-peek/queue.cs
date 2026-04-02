@@ -132,6 +132,6 @@ public class Queue<T>
             return default(T);
         }
 
-        return Head;
+        return Head.value;
     }
 }
