@@ -6,7 +6,7 @@ public class Node<T>
 
     public Node(T value)
     {
-        this.value = T;
+        this.value = value;
         this.next = null;
     }
 }
@@ -18,15 +18,20 @@ public class Node<T>
 public class Queue<T>
 {
 
-    public Node<T> Head{get;}
-    public Node<T> Tail{get;}
-    public int Count{get;}
+    public Node<T> Head{get; private set;}
+    public Node<T> Tail{get; private set;}
+    public int count;
+
+    public int Count()
+    {
+        return count;
+    }
 
     public Queue()
     {
         Head = null;
         Tail = null;
-        Count = 0;
+        count = 0;
     }
 
     /// <summary>
@@ -53,6 +58,6 @@ public class Queue<T>
             Tail = newNode;
         }
 
-        Count++;
+        count++;
     }
 }
