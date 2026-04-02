@@ -18,15 +18,29 @@ public class Node<T>
 public class Queue<T>
 {
 
+    /// <summary>
+    /// 
+    /// </summary>
     public Node<T> Head{get; private set;}
+    /// <summary>
+    /// 
+    /// </summary>
     public Node<T> Tail{get; private set;}
+    // ?
     public int count;
 
+    /// <summary>
+    ///
+    /// </summary>
+    /// <returns></returns>
     public int Count()
     {
         return count;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public Queue()
     {
         Head = null;
@@ -43,6 +57,10 @@ public class Queue<T>
         return typeof(T).ToString(); 
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="value"></param>
     public void Enqueue(T value)
     {
         Node<T> newNode = new Node<T>(value);
