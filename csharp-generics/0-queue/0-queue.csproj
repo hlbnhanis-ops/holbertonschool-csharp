@@ -6,7 +6,6 @@
   <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <RootNamespace>_0_queue</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>
