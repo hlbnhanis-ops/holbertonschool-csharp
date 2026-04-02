@@ -5,7 +5,7 @@ public class Node<T>
     /// 
     /// </summary>
     public T value;
-    
+
     /// <summary>
     /// 
     /// </summary>
@@ -38,7 +38,7 @@ public class Queue<T>
     /// </summary>
     public Node<T> Tail{get; private set;}
     // ?
-    public int count;
+    private int count;
 
     /// <summary>
     ///
