@@ -12,7 +12,7 @@
         {
             this.maxHp = 100f;
             this.hp = 100f;
-            Console.WriteLine("maxHp must be greater than 0.");
+            System.Console.WriteLine("maxHp must be greater than 0.");
         }
         else
         {
@@ -23,6 +23,6 @@
 
     public void PrintHealth()
     {
-        Console.WriteLine($"{name} has {hp} / {maxHp} health");
+        System.Console.WriteLine($"{name} has {hp} / {maxHp} health");
     }
 }
