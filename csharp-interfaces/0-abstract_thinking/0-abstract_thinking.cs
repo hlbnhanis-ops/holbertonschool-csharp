@@ -1,21 +1,12 @@
-using System;
+﻿using System;
 
-/// <summary>
-/// 
-/// </summary>
-public abstract class Base
+///<summary>Base class</summary>
+abstract class Base
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    public string name;
+  public string name = "";
 
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    public override string ToString()
-    {
-        return String.Concat(name, " is a ", this.GetType().ToString());
-    }
+	public override string ToString()
+	{
+		return (this.name + " is a " + this.GetType().ToString());
+	}
 }
