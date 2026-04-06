@@ -44,7 +44,7 @@
     public void ValidateHP(float newHp)
     {
         if(newHp < 0) hp = 0;
-        if(newHp > maxHp) hp = maxHp;
-        hp = newHp;
+        else if(newHp > maxHp) hp = maxHp;
+        else hp = newHp;
     }
 }
